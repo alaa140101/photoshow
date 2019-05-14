@@ -10,7 +10,7 @@
 <body>
   @include('inc.topbar')
 
-  <div class="row">
+  <div class="row container">
       @include('inc.messages')
       @yield('content')
   </div>
